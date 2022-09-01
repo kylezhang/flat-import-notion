@@ -7,11 +7,11 @@ export default defineConfig(({ mode }) => ({
     __APP_VERSION__: JSON.stringify(pkg.version),
   },
   build: {
-    lib: {
-      entry: path.resolve(__dirname, "src/index.js"),
-      formats: ["cjs", "es"],
-      fileName: "index",
-    },
+//     lib: {
+//       entry: path.resolve(__dirname, "src/index.js"),
+//       formats: ["cjs", "es"],
+//       fileName: "index",
+//     },
     sourcemap: mode === "production",
     outDir: "dist",
     rollupOptions: {
