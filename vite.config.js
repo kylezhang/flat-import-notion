@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     sourcemap: mode === "production",
     outDir: "dist",
     rollupOptions: {
-      external: ["@netless/fastboard", "@netless/window-manager", "white-web-sdk"],
+//       external: ["@netless/fastboard", "@netless/window-manager", "white-web-sdk"],
       output: {
         manualChunks: undefined,
         inlineDynamicImports: true,
